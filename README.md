@@ -11,7 +11,7 @@ A React application replicating the Google Chrome homepage, including a `HomePag
 
 ## Live Demo
 
-You can view the live demo of the project ``https://react-chrome-replica.netlify.app/``.
+You can view the live demo of the project [here](https://react-chrome-replica.netlify.app/).
 
 ## Getting Started
 
