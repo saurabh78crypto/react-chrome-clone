@@ -1,0 +1,64 @@
+body {
+  background-color: #fff;
+  font-family: "Google Sans", arial, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .banner {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 80px;
+  }
+  
+  .logo-container img{
+    display: block;
+    margin: auto;
+  }
+
+  img {
+    width: 80px;
+    border-style: none;
+  }
+  
+  .banner h1 {
+    font-size: 4.5rem;
+    line-height: 5.25rem;
+    letter-spacing: -0.21875rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 1rem;
+  }
+
+  .banner p a {
+    color: #3FA2F6;
+    text-decoration: none;
+  }
+
+  .disabled-link {
+    pointer-events: none;
+  }
+
+  .banner p a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  

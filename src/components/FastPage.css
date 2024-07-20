@@ -1,0 +1,103 @@
+.fastpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Google Sans', Arial, sans-serif;
+}
+
+.fastpage-banner {
+  text-align: center;
+  width: 70%;
+  padding: 20px;
+}
+
+.fastpage-banner h2 {
+  margin-top: 0;
+  font-size: 3.75rem;
+  line-height: 4.5rem;
+  letter-spacing: -0.078125rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.fast-text {
+  display: inline-block;
+  padding: 0 0.25rem;
+  border-radius: 12px;
+  background-color: #e6f4ea;
+  color: #0f9d58;
+}
+
+.slide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  margin: 20px;
+  padding: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  text-align: center;
+  font-size: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.slide p {
+  margin: 0;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.circle-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.25rem;
+  position: absolute;
+}
+
+.circle-button:not(:disabled) {
+  background-color: #e0f7fa;
+  color: #0288d1;
+}
+
+.circle-button:not(:disabled):hover {
+  background-color: #81d4fa;
+}
+
+.circle-button:disabled {
+  background-color: #f1f1f1;
+  color: #bdbdbd;
+}
+
+.prev-button {
+  top: 105%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.next-button {
+  top: 105%;
+  left: 45px;
+  transform: translateY(-50%);
+}
+
+
